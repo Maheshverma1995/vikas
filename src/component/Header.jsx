@@ -4,26 +4,31 @@ import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
+  const [Top, setTop] = useState(false); // Added Top state
+  const [isDropdownVisible, setDropdownVisible] = useState(false);
 
   const handleLinkClick = () => {
     setMenuOpen(false);
   };
 
+  const toggleDropdown = () => {
+    setDropdownVisible(!isDropdownVisible);
+  };
+
   useEffect(() => {
-    // Function to handle scroll events and add a sticky class to the navbar
     const handleScroll = () => {
       const navbar = document.querySelector('.navbar');
       if (window.scrollY > 0) {
+        setTop(true); // Update the Top state
         navbar.classList.add('sticky');
       } else {
+        setTop(false); // Update the Top state
         navbar.classList.remove('sticky');
       }
     };
 
-    // Add scroll event listener
     window.addEventListener('scroll', handleScroll);
 
-    // Clean up the event listener
     return () => {
       window.removeEventListener('scroll', handleScroll);
     };
@@ -31,7 +36,9 @@ const Header = () => {
 
   return (
     <nav
-      className={`navbar navbar-expand-lg navbar-dark bg-white border-top z-3 ${isMenuOpen ? 'open' : ''}`}
+      className={`navbar navbar-expand-lg navbar-dark bg-white border-top ${
+        isMenuOpen ? 'open' : ''
+      } ${Top ? 'fixed-top' : ''}`}
     >
       <div className="container">
         <Link className="navbar-brand" to="#">
@@ -74,28 +81,28 @@ const Header = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
                 onClick={handleLinkClick}
+                onMouseEnter={toggleDropdown}
+                onMouseLeave={toggleDropdown}
               >
                 Services
               </Link>
-              <ul className="dropdown-menu">
-                <li>
-                  <Link className="dropdown-item" to="#" onClick={handleLinkClick}>
-                    Action
-                  </Link>
-                </li>
-                <li>
-                  <Link className="dropdown-item" to="#" onClick={handleLinkClick}>
-                    Another action
-                  </Link>
-                </li>
-                <li>
-                  <hr className="dropdown-divider" />
-                </li>
-                <li>
-                  <Link className="dropdown-item" to="#" onClick={handleLinkClick}>
-                    Something else here
-                  </Link>
-                </li>
+              <ul className={`dropdown-menu ${isDropdownVisible ? 'show' : ''}`} id="dropdown1">
+                <div className="d-flex">
+                  <ul>
+                    <li>hi</li>
+                    <li>hi</li>
+                    <li>hi</li>
+                    <li>hi</li>
+                    <li>hi</li>
+                  </ul>
+                  <ul>
+                    <li>hi</li>
+                    <li>hi</li>
+                    <li>hi</li>
+                    <li>hi</li>
+                    <li>hi</li>
+                  </ul>
+                </div>
               </ul>
             </li>
             <li className="nav-item">
@@ -109,7 +116,16 @@ const Header = () => {
               </Link>
             </li>
           </ul>
-          <Link data-animation="fadeInLeft" data-delay=".6s" to="appoinment" class="btn-icon ml-0" style={{animationDelay:'0.6s;'}} tabindex="0"><span>+</span>Make Appointment</Link>
+          <Link
+            data-animation="fadeInLeft"
+            data-delay=".6s"
+            to="appointment"
+            className="btn-icon ml-0"
+            style={{ animationDelay: '0.6s' }}
+            tabIndex="0"
+          >
+            <span>+</span>Make Appointment
+          </Link>
         </div>
       </div>
     </nav>

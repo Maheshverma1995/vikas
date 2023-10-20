@@ -85,9 +85,9 @@ body{
 }
 /* Add these styles for the sticky navbar */
 .sticky {
-  position: fixed;
+  position: sticky;
   top: 0;
-  z-index: 100;
+  z-index: 1000;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
@@ -155,29 +155,21 @@ body{
     transform: translateY(-50%);
 }
 .call-btn {
-	line-height: 1;
-	padding: 28px 39px;
-	font-size: 24px;
-	display: inline-block;
-	position: absolute;
-	right: auto;
-	bottom: -30px;
-	left: 66px;
-	z-index: 10;
-	background-color: #8fb569;
-	color: white;
-	text-decoration: none;
-}
-.call-btn 
-{
+    line-height: 1;
+    padding: 28px 39px ;
+    font-size: 20px;
+    display: inline-block;
     position: absolute;
-    top: 90%;
     right: 0;
-    left: 0;
-    margin: 0 auto;
-    text-align: center;
-    transform: translateY(-50%);
-	
+    bottom: -30px;
+    left: 40%; /* Changed from 66px to center horizontally */
+    transform: translateX(-50%); /* Center horizontally */
+    z-index: 10;
+    background-color: #8fb569;
+    color: white;
+    text-decoration: none;
+    top: 90%;
+	text-align: center;
 }
 .your-slider {
 	width: 80%; /* Adjust the width as needed */
@@ -205,6 +197,11 @@ body{
 	background-image: url('../public//Image/appoinment__thumb.jpg');
 	background-repeat: no-repeat;
 
+}
+.h4appoinment-form
+{
+	display: flex;
+	justify-items: center;
 }
 
 p{
@@ -316,6 +313,26 @@ li{
 	line-height: 80px;
 	border-radius: 50%;
 	margin-bottom: 20px;
+}
+.gallery-box h2 {
+	border-radius: 10px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 0px 10px 29.7px 0.3px rgba(75, 105, 128, 0.19);
+	height: 90px;
+	text-align: center;
+	line-height: 90px;
+	display: inline-block;
+	padding: 0 80px;
+	margin-bottom: 0;
+	font-size: 30px;
+	letter-spacing: -.03em;
+}
+.gallery-content {
+	text-align: center;
+	margin-top: -46px;
+}
+.gallery-box {
+	padding-bottom: 50px;
 }
 .h4facts-iconpink {
 	background: rgba(225, 36, 84, 0.10);
@@ -588,4 +605,81 @@ li{
 	background-image: url(../public/Image/footer-map.png);
 	background-color: #223645;
 	color: white;
+}
+.text-slider
+{
+	margin-top: 200px;
+	margin-left: 150px;
+}
+.slider-h5
+{
+	background-color: #8fb569;
+	color: white;
+	width: 100%;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: -30px;
+	z-index: 100;
+	text-transform: capitalize;
+	
+}
+#card-slider
+{
+	height: 500px;
+	margin-bottom: 200px;
+}
+.h4testimonials-wrapper {
+	padding: 40px;
+	margin-bottom: 50px;
+	box-shadow: 0px 16px 32px 0px rgba(221, 217, 255, 0.2);
+	transition: .4s;
+}
+.h4testimonials-ratings ul li {
+	font-size: 14px;
+	color: #ffc600;
+}
+.h4testimonials-ratings {
+	margin-bottom: 5px;
+}
+.h4testimonials--author__info>h5 {
+	margin-bottom: 4px;
+	font-family: 'Poppins', sans-serif;
+}
+.h4testimonials--author__info {
+	padding-left: 14px;
+}
+.h4testimonials--author__info>span {
+	font-size: 12px;
+}
+.h4testi-iconquato>i {
+	height: 45px;
+	width: 45px;
+	text-align: center;
+	background: #e12454;
+	line-height: 45px;
+	border-radius: 50%;
+	color: #fff;
+	font-size: 16px;
+}
+.h4testi-iconquato {
+	position: absolute;
+	top: -20px;
+	right: 20px;
+}
+.h4testi-col {
+	padding-left: 39px;
+}
+.testimonials
+{
+	background-image: url(../public/Image/Shoulder-Arthroscopy.jpg);
+}
+#dropdown1
+{
+	display: none;
+
+}
+.dropdown:hover #dropdown1{
+	display: block;
 }

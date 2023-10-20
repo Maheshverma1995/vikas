@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import Appointmant from './Appointmant';
 import Slider from './Slider';
 import ServicesArea from './ServicesArea';
-import { FaCheck,FaArrowRight} from "react-icons/fa";
+import { FaCheck,FaArrowRight,FaStar} from "react-icons/fa";
 
 const Home = () => {
 
@@ -22,7 +22,7 @@ const Home = () => {
             <div className="col-xl-6 col-lg-5 position-relative">
               <div className="h4about-thumb pos-rel">
                 <img src="./Image/WhatsApp Image 2023-10-12 at 11.49.32 AM.jpeg" alt="" className=" img-fluid rounded" />
-                <Link to="#" className="call-btn  white-color">
+                <Link to="#" className="call-btn  white-color w-50">
                   <i className="call-icon position-absolute">
                     <img src="./Image/about__phone__icon.png" alt="" />
                   </i>
@@ -62,12 +62,12 @@ const Home = () => {
         </div>
       </section>
       {/* services section  */}
-      <div className='container mt-5'>
+      <div className='container-fluid mt-5'>
         <div className='row' style={{ marginTop: '100px' }}>
           <ServicesArea />
         </div>
       </div>
-      <div className='container-fluid mt-5 mb-5'>
+      <div className='container-fluid'>
         <div className='row'>
           <Appointmant />
         </div>
@@ -76,7 +76,7 @@ const Home = () => {
         <div className="hiring-bottom pos-rel">
           <div className="container-fulid">
             <div className="row">
-              <div className="col-xl-6 col-lg-8">
+              <div className="col-xl-6 col-lg-8 mt-5">
                 <div className="hire-text hire-text-2 ps-3">
                   <div className="about-title">
                 <h5 className="ps-5" style={{ color: '#e12454' }}>Why Choose Us</h5>
@@ -88,7 +88,7 @@ const Home = () => {
                       the latest trends defines my success in the medical field. To learn more about my medical and academic background, please read below.
                     </p>
                   </div>
-                  <ul className="professinals-list pt-10 pb-20">
+                  <ul className="professinals-list pt-5 pb-20">
                     <li className='d-flex mt-2 mb-2'>
                       <span className='check border border-2 border-success-subtle me-3'><FaCheck/></span>
                       <p>
@@ -132,7 +132,7 @@ const Home = () => {
                   </div>
                 </div>
               </div>
-              <div className="col-xl-6 col-lg-8 why_chose" style={{marginTop:'-92px'}}>
+              <div className="col-xl-6 col-lg-8 why_chose">
 
               </div>
             </div>
@@ -141,19 +141,19 @@ const Home = () => {
       </section>
       <div className="testimonials">
         <div className="container">
-          <div className="row">
+          <div className="row ">
             <div className="col-xl-7 offset-xl-5 h4testi-col">
-              <div className="row">
+              <div className="row mt-5">
                 <div className="col-md-6">
                   <div className="h4testimonials-wrapper white-bg pos-rel">
                     <span className="h4testi-iconquato"><i className="fal fa-quote-right"></i></span>
                     <div className="h4testimonials-ratings">
                       <ul className="list-inline">
-                        <li><i className="fas fa-star"></i></li>
-                        <li><i className="fas fa-star"></i></li>
-                        <li><i className="fas fa-star"></i></li>
-                        <li><i className="fas fa-star"></i></li>
-                        <li><i className="fas fa-star"></i></li>
+                        <li><FaStar/></li>
+                        <li><FaStar/></li>
+                        <li><FaStar/></li>
+                        <li><FaStar/></li>
+                        <li><FaStar/></li>
                       </ul>
                     </div>
                     <div className="h4testimonials-content mb-20">
@@ -172,7 +172,88 @@ const Home = () => {
                     </div>
                   </div>
                 </div>
-                {/* Repeat the above structure for other testimonials */}
+                <div className="col-md-6">
+                  <div className="h4testimonials-wrapper white-bg pos-rel">
+                    <span className="h4testi-iconquato"><i className="fal fa-quote-right"></i></span>
+                    <div className="h4testimonials-ratings">
+                      <ul className="list-inline">
+                        <li><FaStar/></li>
+                        <li><FaStar/></li>
+                        <li><FaStar/></li>
+                        <li><FaStar/></li>
+                        <li><FaStar/></li>
+                      </ul>
+                    </div>
+                    <div className="h4testimonials-content mb-20">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt me ut labore et dolore.
+                      </p>
+                    </div>
+                    <div className="h4testimonials-author d-flex align-items-center">
+                      <div className="h4testimonials--author__icon">
+                        <img src="./Image/author-icon1.png" alt="" />
+                      </div>
+                      <div className="h4testimonials--author__info">
+                        <h5 className="f-600 theme-color">Hiliam D. Pawlu</h5>
+                        <span className="f-500 pink-color">Founder, TrashTheme</span>
+                      </div>
+                    </div>
+                  </div>
+                </div><div className="col-md-6">
+                  <div className="h4testimonials-wrapper white-bg pos-rel">
+                    <span className="h4testi-iconquato"><i className="fal fa-quote-right"></i></span>
+                    <div className="h4testimonials-ratings">
+                      <ul className="list-inline">
+                        <li><FaStar/></li>
+                        <li><FaStar/></li>
+                        <li><FaStar/></li>
+                        <li><FaStar/></li>
+                        <li><FaStar/></li>
+                      </ul>
+                    </div>
+                    <div className="h4testimonials-content mb-20">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt me ut labore et dolore.
+                      </p>
+                    </div>
+                    <div className="h4testimonials-author d-flex align-items-center">
+                      <div className="h4testimonials--author__icon">
+                        <img src="./Image/author-icon1.png" alt="" />
+                      </div>
+                      <div className="h4testimonials--author__info">
+                        <h5 className="f-600 theme-color">Hiliam D. Pawlu</h5>
+                        <span className="f-500 pink-color">Founder, TrashTheme</span>
+                      </div>
+                    </div>
+                  </div>
+                </div><div className="col-md-6">
+                  <div className="h4testimonials-wrapper white-bg pos-rel">
+                    <span className="h4testi-iconquato"><i className="fal fa-quote-right"></i></span>
+                    <div className="h4testimonials-ratings">
+                      <ul className="list-inline">
+                        <li><FaStar/></li>
+                        <li><FaStar/></li>
+                        <li><FaStar/></li>
+                        <li><FaStar/></li>
+                        <li><FaStar/></li>
+                      </ul>
+                    </div>
+                    <div className="h4testimonials-content mb-20">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt me ut labore et dolore.
+                      </p>
+                    </div>
+                    <div className="h4testimonials-author d-flex align-items-center">
+                      <div className="h4testimonials--author__icon">
+                        <img src="./Image/author-icon1.png" alt="" />
+                      </div>
+                      <div className="h4testimonials--author__info">
+                        <h5 className="f-600 theme-color">Hiliam D. Pawlu</h5>
+                        <span className="f-500 pink-color">Founder, TrashTheme</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
