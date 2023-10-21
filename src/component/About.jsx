@@ -7,13 +7,18 @@ import Costumer from './Costumer';
 const About = () => {
   return (
     <div>
-      <div className='container-fluid'>
-        <div className='row header-1'>
-          <div className='col-12 d-flex justify-content-between  pt-200 pb-200'>
-            <div className='pl-100'><h4>We are here for your care.</h4>
-              <h1>About Us</h1></div>
-            <div className='pr-100'> home</div>
+      <div className='container-fluid header-1'>
+       
+          <div className='container'>
+            <div className='row'>
+            <div className='col-12 pt-200 pb-200'>
+            <div><h4>We are here for your care.</h4>
+              <h1>About Us </h1>
+              <div className='text-end'> home</div>
+              </div>
+            </div>
           </div>
+          
         </div>
       </div>
       <div className='container'>
@@ -95,7 +100,7 @@ const About = () => {
       <div className='container-fluid theme-bg2'>
         <div className='container'>
           <div className='row'>
-            <div className='col-8 white-bg mb-150' style={{ marginTop: '100px' }}>
+            <div className=' white-bg mb-150' style={{ marginTop: '100px' }}>
               <h5 className='mt-5 ps-5'>Our Approch</h5>
               <h1 className='mt-3 ps-5'>If you are a patient seeking quality.</h1>
               <p className='ps-5 mt-3'>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat.</p>
@@ -114,17 +119,15 @@ const About = () => {
           </div>
         </div>
       </div>
-      <div className='containet-fluid'>
-        <div className='row pl-100 pr-50'>
-          <div className='row'>
-
-            <div className='col-12 d-flex justify-content-between  pt-200 pb-500'>
-              <div className='header-2 pt-50 pb-100'>
+      <div className='container-fluid'>
+        <div className='container'>
+            <div className=' row pt-200 pb-500'>
+              <div className='header-2 col-md-6 pt-50 pb-100'>
                 <p className='pink-color fs-4'>Our Team</p>
-                <h1 style={{ fontSize: '80px' }}>A Professional <br />& Care Provider</h1>
+                <h1>A Professional <br />& Care Provider</h1>
                 <img src="./Image/section-title-line.png" alt="" />
               </div>
-              <div className='pr-100 pt-100'>
+              <div className='col-md-6  mb-40'>
                 <Link
                   data-animation="fadeInLeft"
                   data-delay=".6s"
@@ -136,7 +139,7 @@ const About = () => {
                   <span>+</span>Make Appointment
                 </Link></div>
             </div>
-          </div>
+          
           <div className='row'>
             <div mt-3 className='col-md-4'>
               <div>
