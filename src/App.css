@@ -683,3 +683,7 @@ li{
 .dropdown:hover #dropdown1{
 	display: block;
 }
+.dropdown-toggle::after
+{
+	border-top: none !important;
+}

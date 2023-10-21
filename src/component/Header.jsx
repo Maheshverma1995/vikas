@@ -36,9 +36,8 @@ const Header = () => {
 
   return (
     <nav
-      className={`navbar navbar-expand-lg navbar-dark bg-white border-top ${
-        isMenuOpen ? 'open' : ''
-      } ${Top ? 'fixed-top' : ''}`}
+      className={`navbar navbar-expand-lg navbar-dark bg-white border-top ${isMenuOpen ? 'open' : ''
+        } ${Top ? 'fixed-top' : ''}`}
     >
       <div className="container">
         <Link className="navbar-brand" to="#">
@@ -77,7 +76,7 @@ const Header = () => {
               <Link
                 className="nav-link text-dark fs-5 dropdown-toggle"
                 to="service"
-                role="button"
+                
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
                 onClick={handleLinkClick}
@@ -88,19 +87,47 @@ const Header = () => {
               </Link>
               <ul className={`dropdown-menu ${isDropdownVisible ? 'show' : ''}`} id="dropdown1">
                 <div className="d-flex">
-                  <ul>
-                    <li>hi</li>
-                    <li>hi</li>
-                    <li>hi</li>
-                    <li>hi</li>
-                    <li>hi</li>
+                  <ul className='ps-5'>
+                    <li><Link className="nav-link text-dark" style={{textAlign:'start'}} to="knee" onClick={handleLinkClick}>
+                    Total Knee Replacement
+              </Link></li>
+                    <li><Link className="nav-link text-dark" style={{textAlign:'start'}} to="hip" onClick={handleLinkClick}>
+                    Total Hip Replacement2
+              </Link></li>
+                    <li><Link className="nav-link text-dark" style={{textAlign:'start'}} to="acl-reconstruction" onClick={handleLinkClick}>
+                    Acl Reconstruction
+              </Link></li>
+                    <li><Link className="nav-link text-dark" style={{textAlign:'start'}} to="meniscus" onClick={handleLinkClick}>
+                    Meniscus Repair
+              </Link></li>
+                    <li><Link className="nav-link text-dark" style={{textAlign:'start'}} to="partial-knee" onClick={handleLinkClick}>
+                    Partial Knee Replacement
+              </Link></li>
+              <li><Link className="nav-link text-dark" style={{textAlign:'start'}} to="reverse-shoulde" onClick={handleLinkClick}>
+              Total & Reverse Shoulder Replacement
+              </Link></li>
                   </ul>
                   <ul>
-                    <li>hi</li>
-                    <li>hi</li>
-                    <li>hi</li>
-                    <li>hi</li>
-                    <li>hi</li>
+                    <li><Link className="nav-link text-dark" style={{textAlign:'start'}} to="Shoulder" onClick={handleLinkClick}>
+                    Shoulder Surgery
+              </Link></li>
+                    <li><Link className="nav-link text-dark" style={{textAlign:'start'}} to="bankart" onClick={handleLinkClick}>
+                    Bankart Repair
+              </Link></li>
+                    <li><Link className="nav-link text-dark" style={{textAlign:'start'}} to="dislocation" onClick={handleLinkClick}>
+                    Shoulder Dislocation Management
+
+              </Link></li>
+                    <li><Link className="nav-link text-dark" style={{textAlign:'start'}} to="cuff" onClick={handleLinkClick}>
+                    Rotator Cuff Repair
+
+              </Link></li>
+                    <li><Link className="nav-link text-dark" style={{textAlign:'start'}} to="revision" onClick={handleLinkClick}>
+                    Revision Knee & Hip Replacement
+              </Link></li>
+              <li><Link className="nav-link text-dark" style={{textAlign:'start'}} to="unicompartmental" onClick={handleLinkClick}>
+              Unicompartmental (Partial) Knee 
+              </Link></li>
                   </ul>
                 </div>
               </ul>
