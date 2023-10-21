@@ -16,15 +16,32 @@ const Gallery = () => {
 
         <div className='container pt-50'>
           <div className='row'>
-            <div className='col-12'>
-              <div className='header-2 pt-50 pb-100'>
-                <h1>Our Photogallery</h1>
+            <div className='col-12 d-flex justify-content-center'>
+              <div className='header-2 pt-50 pb-50'>
+                <h1 className='pink-color fs-5'>Our Photogallery</h1>
+                <h1 className='f-700'>Let’s See Latest Photo Album</h1>
                 <img src="./Image/section-title-line.png" alt="" />
               </div>
 
             </div>
             <div className='row'>
+              <div class="container text-center">
+                <div class="row mt-5">
+                  <div class="p-5 col-md-6"><img className='img-fluid' src="./Image/photo.jpeg" alt="" /></div>
+                  <div class="p-5 col-6 col-md-6"><img className='img-fluid' src="./Image/appoinment__thumb.jpg" alt="" /></div>
+                </div>
 
+                <div class="row mt-5">
+                  <div class="p-5 col-6 col-md-4"><img className='img-fluid' src="./Image/photo.jpeg" alt="" /></div>
+                  <div class="p-5 col-6 col-md-4"><img className='img-fluid' src="./Image/hire__thumb.jpg" alt="" /></div>
+                  <div class="p-5 col-6 col-md-4"><img className='img-fluid' src="./Image/photo3.jpg" alt="" /></div>
+                </div>
+
+                <div class="row mt-5">
+                  <div class="p-5 col-6"><img className='img-fluid' src="./Image/orthopedic-patient-doctor-examines-s-knee-using-tuning-fork-62488941.webp" alt="" /></div>
+                  <div class="p-5 col-6"><img className='img-fluid' src="./Image/photo2.jpg" alt="" /></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

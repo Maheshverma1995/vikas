@@ -8,7 +8,8 @@ const Unicompartmental = () => {
         <div className='row header-1'>
           <div className='col-12 d-flex justify-content-between  pt-200 pb-200'>
             <div className='pl-100'><h4>We are here for your care.</h4>
-              <h1>Acl Reconstruction</h1></div>
+              <h1>Unicompartmental (Partial) Knee Replacement
+</h1></div>
             <div className='pr-100'> home</div>
           </div>
         </div>
@@ -16,7 +17,7 @@ const Unicompartmental = () => {
       <div className='container'>
         <div className='row'>
           <div className='col-12 pt-100'>
-            <img className='w-100' src="./Image/ACL (1).jpg" alt="" />
+            <img className='w-100' src="./Image/Unicompartmental.jpg" alt="" />
           </div>
         </div>
       </div>
@@ -24,40 +25,53 @@ const Unicompartmental = () => {
         <div className='row'>
           <div className='col-12'>
             <div className='header-2 pt-50 pb-100'>
-              <h1>Acl Reconstruction</h1>
+              <h1>Unicompartmental (Partial) Knee Replacement</h1>
               <img src="./Image/section-title-line.png" alt="" />
             </div>
 
           </div>
           <div className='row'>
             <div className='col-12'>
-              <h2>What Is ACL Surgery?</h2>
-              <p>
-                ACL surgery is a procedure that doctors use to replace a torn ligament in your knee.
-                The ACL (anterior cruciate ligament) is a band of tissue inside your knee. It gets damaged when it stretches or tears. ACL injuries are common among people who play sports because they make movements that can put a lot of stress on the knee, like:
+              <p>In knee osteoarthritis, the cartilage protecting the bones of the knee slowly wears away. This can occur throughout the knee joint or just in a single area of the knee.
 
-                <li>total Changing direction quickly (cutting)</li>
+</p>
+<h3>The knee is divided into three major compartments:
+</h3>
+<p> Medial compartment (the inside part of the knee)</p>
+<p> Lateral compartment (the outside part of the knee)</p>
+<p>Patellofemoral compartment (the front of the knee between the kneecap and thighbone)</p>
+<p>Advanced osteoarthritis that is limited to a single compartment may be treated with a unicompartmental knee replacement. During this procedure, the damaged compartment is replaced with metal and plastic. The healthy cartilage and bone, as well as all of the ligaments, are preserved.
 
-                <li>Stopping suddenly</li>
+</p>
+<h3>Advantages and Disadvantages of Partial Knee Replacement
+</h3>
+<p>Multiple studies show that most patients who are appropriate candidates for unicompartmental knee replacement have good results with this procedure.
 
-                <li>Planting your foot and pivoting</li>
+</p>
+<h3>The advantages of partial knee replacement over total knee replacement include:
+</h3>
+<p> Quicker recovery</p>
+<p> Less pain after surgery</p><p> Less blood loss</p>
+<p> Lower risk of infection and blood clots</p>
+<p>Also, because the bone, cartilage, and ligaments in the healthy parts of the knee are preserved, many patients report that a unicompartmental knee replacement feels more natural than a total knee replacement. A unicompartmental knee may also bend better.
 
-                <li>Landing wrong after a jump</li>
+</p>
+<p>The disadvantage of partial knee replacement compared with total knee replacement is the potential need for more surgery. For example, a total knee replacement may be necessary in the future if arthritis develops in the parts of the knee that have not been replaced. The need for additional surgery is slightly higher for partial knee replacement than for total knee replacement.
 
-                <li>When your ACL is healthy, it helps to hold together the bones of your knee. It also helps to keep your knee stable. If it gets damaged, you may have trouble putting pressure on your knee, walking, or playing sports.</li>
+</p>
+<h3>Candidates for Surgery
+</h3>
+<p>If your osteoarthritis has advanced and nonsurgical treatment options are no longer relieving your symptoms, your doctor may recommend knee replacement surgery.
 
-                If you strain or slightly tear your ACL, it may heal over time with your doctor’s help and physical therapy. But if it’s completely torn, you may need to have it replaced -- especially if you’re young and active or an athlete who wants to keep playing sports. If you’re older or less active, your doctor might recommend treatments that don’t require surgery.
-              </p>
-              <h3>Types of ACL Surgery</h3>
-              <p>When your doctor removes your torn ACL, they put a tendon in its place. (Tendons connect muscle to bone.) The goal is to get your knee stable again and give it the full range of motion it had before you got hurt.
+</p>
+<p>To be a candidate for unicompartmental knee replacement, your arthritis must be limited to one compartment of your knee.
 
-              </p><p>When the tendon is put into your knee, it’s known as a graft. Three types of grafts can be used with ACL surgery:</p>
-              <h3>Autograft.</h3>
-              <p>Your doctor uses a tendon from somewhere else in your body (like your other knee, hamstring, or thigh).</p>
-              <h3>Allograft.</h3>
-              <p>This type of graft uses tissue from someone else (a deceased donor).</p>
-              <h3>Synthetic graft.</h3>
-              <p>This is when artificial materials replace the tendon. Silver fibers and silk were among the first ones used (in the early part of the 20th century). More advanced options are available now, like carbon fiber and Teflon, but researchers are still working to find the best material for ACL replacement.</p>
+</p>
+<h3>If you have any of the following characteristics, you may not be eligible for the procedure:
+</h3>
+<p> Inflammatory arthritis</p>
+<p>Significant knee stiffness</p>
+<p>Ligament damage</p>
             </div>
           </div>
         </div>

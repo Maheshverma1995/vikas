@@ -8,7 +8,7 @@ const ReverseShoulde = () => {
         <div className='row header-1'>
           <div className='col-12 d-flex justify-content-between  pt-200 pb-200'>
             <div className='pl-100'><h4>We are here for your care.</h4>
-              <h1>Acl Reconstruction</h1></div>
+              <h1>Total & Reverse Shoulder Replacement</h1></div>
             <div className='pr-100'> home</div>
           </div>
         </div>
@@ -16,7 +16,7 @@ const ReverseShoulde = () => {
       <div className='container'>
         <div className='row'>
           <div className='col-12 pt-100'>
-            <img className='w-100' src="./Image/ACL (1).jpg" alt="" />
+            <img className='w-100' src="./Image/Total-Reverse-Shoulder-Replacement.jpg" alt="" />
           </div>
         </div>
       </div>
@@ -24,40 +24,29 @@ const ReverseShoulde = () => {
         <div className='row'>
           <div className='col-12'>
             <div className='header-2 pt-50 pb-100'>
-              <h1>Acl Reconstruction</h1>
+              <h1>Total & Reverse Shoulder Replacement
+</h1>
               <img src="./Image/section-title-line.png" alt="" />
             </div>
 
           </div>
           <div className='row'>
             <div className='col-12'>
-              <h2>What Is ACL Surgery?</h2>
-              <p>
-                ACL surgery is a procedure that doctors use to replace a torn ligament in your knee.
-                The ACL (anterior cruciate ligament) is a band of tissue inside your knee. It gets damaged when it stretches or tears. ACL injuries are common among people who play sports because they make movements that can put a lot of stress on the knee, like:
+              <p>Reverse Shoulder Arthroplasty is a type of shoulder arthroplasty that uses a convex glenoid hemispheric ball and a concave humerus articulating cup to reconstruct the glenohumeral joint.
 
-                <li>total Changing direction quickly (cutting)</li>
+</p>
+<p>The center of rotation is moved inferiorly and medialized which allows the deltoid muscle to act on a longer fulcrum and have more mechanical advantage.
 
-                <li>Stopping suddenly</li>
+</p>
+<p>Reverse Shoulder Arthroplasty is indicated for conditions such as rotator cuff tear arthropathy, comminuted 4-part proximal humerus fractures and prior failed shoulder arthroplasty.
 
-                <li>Planting your foot and pivoting</li>
+</p>
+<h3>Total Shoulder Replacement
+</h3>
+<p>A conventional shoulder replacement device mimics the normal anatomy of the shoulder: a plastic "cup" is fitted into the shoulder socket (glenoid), and a metal "ball" is attached to the top of the upper arm bone (humerus). In a reverse total shoulder replacement, the socket and metal ball are switched. The metal ball is fixed to the socket and the plastic cup is fixed to the upper end of the humerus.
 
-                <li>Landing wrong after a jump</li>
-
-                <li>When your ACL is healthy, it helps to hold together the bones of your knee. It also helps to keep your knee stable. If it gets damaged, you may have trouble putting pressure on your knee, walking, or playing sports.</li>
-
-                If you strain or slightly tear your ACL, it may heal over time with your doctor’s help and physical therapy. But if it’s completely torn, you may need to have it replaced -- especially if you’re young and active or an athlete who wants to keep playing sports. If you’re older or less active, your doctor might recommend treatments that don’t require surgery.
-              </p>
-              <h3>Types of ACL Surgery</h3>
-              <p>When your doctor removes your torn ACL, they put a tendon in its place. (Tendons connect muscle to bone.) The goal is to get your knee stable again and give it the full range of motion it had before you got hurt.
-
-              </p><p>When the tendon is put into your knee, it’s known as a graft. Three types of grafts can be used with ACL surgery:</p>
-              <h3>Autograft.</h3>
-              <p>Your doctor uses a tendon from somewhere else in your body (like your other knee, hamstring, or thigh).</p>
-              <h3>Allograft.</h3>
-              <p>This type of graft uses tissue from someone else (a deceased donor).</p>
-              <h3>Synthetic graft.</h3>
-              <p>This is when artificial materials replace the tendon. Silver fibers and silk were among the first ones used (in the early part of the 20th century). More advanced options are available now, like carbon fiber and Teflon, but researchers are still working to find the best material for ACL replacement.</p>
+</p>
+<p>A reverse total shoulder replacement works better for people with cuff tear arthropathy because it relies on different muscles to move the arm. In a healthy shoulder, the rotator cuff muscles help position and power the arm during range of motion. A conventional replacement device also uses the rotator cuff muscles to function properly. In a patient with a large rotator cuff tear and cuff tear arthropathy, these muscles no longer function. The reverse total shoulder replacement relies on the deltoid muscle, instead of the rotator cuff, to power and position the arm.</p>
             </div>
           </div>
         </div>

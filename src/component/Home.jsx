@@ -19,16 +19,16 @@ const Home = () => {
       <section className="about-area" id="about">
         <div className="container">
           <div className="row" style={{ marginTop: '100px' }}>
-            <div className="col-xl-6 col-lg-5 position-relative">
-              <div className="h4about-thumb pos-rel">
+            <div className="col-xl-6 col-lg-5 ">
+              <div className="h4about-thumb">
                 <img src="./Image/WhatsApp Image 2023-10-12 at 11.49.32 AM.jpeg" alt="" className=" img-fluid rounded" />
-                <Link to="#" className="call-btn  white-color w-50">
-                  <i className="call-icon position-absolute">
-                    <img src="./Image/about__phone__icon.png" alt="" />
+                <Link to="#" className="  white-color w-50">
+                  <i className="call-icon ">
+                    {/* <img src="./Image/about__phone__icon.png" alt="" /> */}
                   </i>
-                  <span >Call : 012 (963) 15632</span>
+                  {/* <span >Call : 012 (963) 15632</span> */}
                 </Link>
-                <img src="./Image/orthopedic-patient-doctor-examines-s-knee-using-tuning-fork-62488941.webp" alt="" className=" img-fluid about-overlap__thumb rounded z-2" />
+                {/* <img src="./Image/orthopedic-patient-doctor-examines-s-knee-using-tuning-fork-62488941.webp" alt="" className=" img-fluid about-overlap__thumb rounded z-2" /> */}
               </div>
             </div>
             <div className="col-xl-6 col-lg-7" style={{ paddingLeft: '50px' }}>

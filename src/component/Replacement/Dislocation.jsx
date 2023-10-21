@@ -8,7 +8,8 @@ const Dislocation = () => {
         <div className='row header-1'>
           <div className='col-12 d-flex justify-content-between  pt-200 pb-200'>
             <div className='pl-100'><h4>We are here for your care.</h4>
-              <h1>Acl Reconstruction</h1></div>
+              <h1>Shoulder Dislocation Management
+</h1></div>
             <div className='pr-100'> home</div>
           </div>
         </div>
@@ -16,7 +17,8 @@ const Dislocation = () => {
       <div className='container'>
         <div className='row'>
           <div className='col-12 pt-100'>
-            <img className='w-100' src="./Image/ACL (1).jpg" alt="" />
+            <img className='w-100' src="./Image/Shoulder-Dislocation
+.jpg" alt="" />
           </div>
         </div>
       </div>
@@ -24,40 +26,68 @@ const Dislocation = () => {
         <div className='row'>
           <div className='col-12'>
             <div className='header-2 pt-50 pb-100'>
-              <h1>Acl Reconstruction</h1>
+              <h1>Shoulder Dislocation Management
+</h1>
               <img src="./Image/section-title-line.png" alt="" />
             </div>
 
           </div>
           <div className='row'>
             <div className='col-12'>
-              <h2>What Is ACL Surgery?</h2>
-              <p>
-                ACL surgery is a procedure that doctors use to replace a torn ligament in your knee.
-                The ACL (anterior cruciate ligament) is a band of tissue inside your knee. It gets damaged when it stretches or tears. ACL injuries are common among people who play sports because they make movements that can put a lot of stress on the knee, like:
+              <h3>What is a dislocated shoulder?
+</h3>
+<p>our shoulder joint is made up of three bones: your collarbone, your shoulder blade, and your upper arm bone. The top of your upper arm bone is shaped like a ball. This ball fits into a cuplike socket in your shoulder blade. A shoulder dislocation is an injury that happens when the ball pops out of your socket. A dislocation may be partial, where the ball is only partially out of the socket. It can also be a full dislocation, where the ball is completely out of the socket.
 
-                <li>total Changing direction quickly (cutting)</li>
+</p>
+<h3>What causes a dislocated shoulder?
+</h3><p>Your shoulders are the most movable joints in your body. They are also the most commonly dislocated joints.
 
-                <li>Stopping suddenly</li>
+</p>
+<h4>The most common causes of shoulder dislocations are:
+</h4><p>Severe Sports injuries
 
-                <li>Planting your foot and pivoting</li>
+</p>
+<p>Accidents, including traffic accidents
 
-                <li>Landing wrong after a jump</li>
+</p>
+<p>Falling on your shoulder or outstretched arm
 
-                <li>When your ACL is healthy, it helps to hold together the bones of your knee. It also helps to keep your knee stable. If it gets damaged, you may have trouble putting pressure on your knee, walking, or playing sports.</li>
+</p>
+<p>Seizures and electric shocks, which can cause muscle contractions that pull the arm out of place
 
-                If you strain or slightly tear your ACL, it may heal over time with your doctor’s help and physical therapy. But if it’s completely torn, you may need to have it replaced -- especially if you’re young and active or an athlete who wants to keep playing sports. If you’re older or less active, your doctor might recommend treatments that don’t require surgery.
-              </p>
-              <h3>Types of ACL Surgery</h3>
-              <p>When your doctor removes your torn ACL, they put a tendon in its place. (Tendons connect muscle to bone.) The goal is to get your knee stable again and give it the full range of motion it had before you got hurt.
+</p>
+<h3>Who is at risk for a dislocated shoulder?
+</h3>
+<p>A dislocated shoulder can happen to anyone, but they are more common in young men, who are more often involved in sports and other physical activities. Older adults, especially women, are also at higher risk because they are more likely to fall.
 
-              </p><p>When the tendon is put into your knee, it’s known as a graft. Three types of grafts can be used with ACL surgery:</p>
-              <h3>Autograft.</h3>
-              <p>Your doctor uses a tendon from somewhere else in your body (like your other knee, hamstring, or thigh).</p>
-              <h3>Allograft.</h3>
-              <p>This type of graft uses tissue from someone else (a deceased donor).</p>
-              <h3>Synthetic graft.</h3>
-              <p>This is when artificial materials replace the tendon. Silver fibers and silk were among the first ones used (in the early part of the 20th century). More advanced options are available now, like carbon fiber and Teflon, but researchers are still working to find the best material for ACL replacement.</p>
+</p>
+<h3>What are the symptoms of a dislocated shoulder?
+</h3>
+<p>Severe Severe shoulder pain Muscle spasms in your shoulder
+
+</p>
+<p>Swelling and bruising of your shoulder or upper arm
+
+</p>
+<p>Numbness and/or weakness in your arm, neck, hand, or fingers
+
+</p>
+<p>Trouble moving your arm
+
+</p>
+<p>Your arm seems to be out of place
+
+</p>
+<p>Muscle spasms in your shoulder
+</p>
+<h3>How is a dislocated shoulder diagnosed?
+</h3>
+<p>To make a diagnosis, your health care provider will take a medical history and examine your shoulder. Your provider may also ask you to get an x-ray to confirm the diagnosis.
+
+</p>
+<h3>What are the treatments for a dislocated shoulder?
+</h3>
+<p>The treatment for dislocated shoulder usually involves three steps: The first step is a closed reduction, a procedure in which your health care provider puts the ball of your upper arm back into the socket. You may first get medicine to relieve the pain and relax your shoulder muscles. Once the joint is back in place, the severe pain should end. The second step is wearing a sling or other device to keep your shoulder in place. You will wear it for a few days to several weeks. The third step is rehabilitation, once the pain and swelling have improved. You will do exercises to improve your range of motion and strengthen your muscles. You may need surgery if you injure the tissues or nerves around the shoulder or if you get repeated dislocations.</p>
             </div>
           </div>
         </div>

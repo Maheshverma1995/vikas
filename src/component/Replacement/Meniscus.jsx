@@ -3,66 +3,86 @@ import React from 'react'
 const Meniscus = () => {
   return (
     <div>
-       <div>
-      <div className='container-fluid'>
-        <div className='row header-1'>
-          <div className='col-12 d-flex justify-content-between  pt-200 pb-200'>
-            <div className='pl-100'><h4>We are here for your care.</h4>
-              <h1>Acl Reconstruction</h1></div>
-            <div className='pr-100'> home</div>
-          </div>
-        </div>
-      </div>
-      <div className='container'>
-        <div className='row'>
-          <div className='col-12 pt-100'>
-            <img className='w-100' src="./Image/ACL (1).jpg" alt="" />
-          </div>
-        </div>
-      </div>
-      <div className='container pt-50'>
-        <div className='row'>
-          <div className='col-12'>
-            <div className='header-2 pt-50 pb-100'>
-              <h1>Acl Reconstruction</h1>
-              <img src="./Image/section-title-line.png" alt="" />
+      <div>
+        <div className='container-fluid'>
+          <div className='row header-1'>
+            <div className='col-12 d-flex justify-content-between  pt-200 pb-200'>
+              <div className='pl-100'><h4>We are here for your care.</h4>
+                <h1>Meniscus Repair</h1></div>
+              <div className='pr-100'> home</div>
             </div>
-
           </div>
+        </div>
+        <div className='container'>
+          <div className='row'>
+            <div className='col-12 pt-100'>
+              <img className='w-100' src="./Image/Meniscal-Repair-1.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div className='container pt-50'>
           <div className='row'>
             <div className='col-12'>
-              <h2>What Is ACL Surgery?</h2>
-              <p>
-                ACL surgery is a procedure that doctors use to replace a torn ligament in your knee.
-                The ACL (anterior cruciate ligament) is a band of tissue inside your knee. It gets damaged when it stretches or tears. ACL injuries are common among people who play sports because they make movements that can put a lot of stress on the knee, like:
+              <div className='header-2 pt-50 pb-100'>
+                <h1>Meniscus Repair</h1>
+                <img src="./Image/section-title-line.png" alt="" />
+              </div>
 
-                <li>total Changing direction quickly (cutting)</li>
+            </div>
+            <div className='row'>
+              <div className='col-12'>
+                <p>Arthroscopic Meniscus Repair: Minimally invasive surgery to repair torn knee cartilage</p>
+                <h2>Overview</h2>
+                <p>
+                  Arthroscopic meniscus repair is an outpatient surgical procedure to repair torn knee cartilage. The torn meniscus is repaired by a variety of minimally invasive techniques and requires postoperative protection to allow healing. Physical therapy is useful to regain full function of the knee, which occurs on average 4-5 months after surgery.
+                </p>
+                <h3>Symptoms of Torn Meniscus
+                </h3>
+                Torn knee cartilage generally produces pain in the region of the tear and swelling in the knee joint. These symptoms are made worse with pivoting motions, squatting, and vigorous activities. Torn meniscus fragments can get caught in the knee joint and cause catching sensations. If a large enough fragment becomes lodged between the bearing surfaces, the knee may ‘lock’ and become unable to be fully bent or extended.
 
-                <li>Stopping suddenly</li>
 
-                <li>Planting your foot and pivoting</li>
+                <h3>Goal of Arthroscopic Meniscus Repair
+                </h3>
+                <p>The goal of meniscus surgery is to preserve healthy meniscus tissue. A meniscus tear requires a blood supply to heal. Only the outer third portion of the meniscus has blood supply to enable healing of a tear. Repairs are generally limited to this peripheral region of the meniscus. Many types of meniscus tears occur in the region of the meniscus without adequate blood supply for healing. Meniscus removal is generally recommended for tears to regions of the meniscus without blood supply. Please see arthroscopic meniscectomy for more information.
 
-                <li>Landing wrong after a jump</li>
+                </p>
+                <h3>Surgical Options for Torn Meniscus
+                </h3>
+                <p>Meniscus tears can be treated by meniscus removal (meniscectomy), meniscus repair, or in unusual circumstances, meniscus replacement. Since the goal of surgery is to preserve healthy meniscus, meniscus repair is attempted when the tear is repairable. Meniscectomy, removal of the damaged meniscus tissue, has good short term results but leads to the development of arthritis ten to twenty years later. Meniscus repair also has good results, but has a longer recovery time than meniscectomy and is limited to tears which are amenable to repair. Meniscus replacement is considered for young, active patients who have previously had most of their meniscus removed, and develop pain in the area without having advanced degenerative changes to the articular (gliding surface) cartilage. Please see meniscus replacement for additional information.
 
-                <li>When your ACL is healthy, it helps to hold together the bones of your knee. It also helps to keep your knee stable. If it gets damaged, you may have trouble putting pressure on your knee, walking, or playing sports.</li>
+                </p>              <h3>Effectiveness</h3>
+                <p>When performed by an experienced surgeon, meniscus repair is highly successful , with good results in approximately 90% of patients. Any knee that is injured has a higher likelihood of developing arthritis. A successful repair slows the development of arthritic changes. Factors associated with higher rates of meniscus healing include repair within 2 months, more peripheral tear location, and concomitant ACL reconstruction.
 
-                If you strain or slightly tear your ACL, it may heal over time with your doctor’s help and physical therapy. But if it’s completely torn, you may need to have it replaced -- especially if you’re young and active or an athlete who wants to keep playing sports. If you’re older or less active, your doctor might recommend treatments that don’t require surgery.
-              </p>
-              <h3>Types of ACL Surgery</h3>
-              <p>When your doctor removes your torn ACL, they put a tendon in its place. (Tendons connect muscle to bone.) The goal is to get your knee stable again and give it the full range of motion it had before you got hurt.
+                </p>
+                <h3>Possible benefits of arthroscopic meniscus repair
+                </h3>
+                <p>The meniscus is an important structure for load transmission and shock absorption in the knee. The knee is subjected to up to 5 times body weight during activity, and half this force is transmitted through the meniscus with the knee straight, and 85% of the force goes through the meniscus with the knee bent ninety degrees. Loss of the meniscus increases the pressure on the articular (gliding) cartilage, which leads to degenerative changes. A successful meniscus repair preserves meniscus tissue and mitigates these changes.
 
-              </p><p>When the tendon is put into your knee, it’s known as a graft. Three types of grafts can be used with ACL surgery:</p>
-              <h3>Autograft.</h3>
-              <p>Your doctor uses a tendon from somewhere else in your body (like your other knee, hamstring, or thigh).</p>
-              <h3>Allograft.</h3>
-              <p>This type of graft uses tissue from someone else (a deceased donor).</p>
-              <h3>Synthetic graft.</h3>
-              <p>This is when artificial materials replace the tendon. Silver fibers and silk were among the first ones used (in the early part of the 20th century). More advanced options are available now, like carbon fiber and Teflon, but researchers are still working to find the best material for ACL replacement.</p>
+                </p>
+                <h3>Who should consider arthroscopic meniscus repair?
+                </h3>
+                <p>Even though the recovery is longer for a meniscus repair than for a meniscectomy, any repairable meniscus should generally be repaired. Meniscus repair is considered when:</p>
+
+
+
+                <li>the patient is healthy and wishes to remain active</li>
+
+                <li>the patient understands the rehabilitation, and accepts the risks of surgery
+
+</li>
+
+                <li>Moderate or severe knee pain while resting, either day or night</li>
+
+                <li>The meniscus tear is located in the periphery of the meniscus</li>
+
+                <li>the meniscus tissue is of good quality</li>
+                <li>the surgeon is experienced in meniscus repair</li>
+
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div> 
     </div>
   )
 }

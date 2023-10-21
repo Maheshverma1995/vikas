@@ -44,7 +44,7 @@ const Header = () => {
           <img src="./Image/logo2.png" style={{ width: '200px' }} alt="" />
         </Link>
         <button
-          className="navbar-toggler"
+          className="navbar-toggler pink-bg "
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -53,7 +53,7 @@ const Header = () => {
           aria-label="Toggle navigation"
           onClick={() => setMenuOpen(!isMenuOpen)}
         >
-          <span className="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon text-white"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav m-auto mb-2 mb-lg-0">
