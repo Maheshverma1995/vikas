@@ -25,21 +25,21 @@ const Gallery = () => {
 
             </div>
             <div className='row'>
-              <div class="container text-center">
-                <div class="row mt-5">
-                  <div class="p-5 col-md-6"><img className='img-fluid' src="./Image/photo.jpeg" alt="" /></div>
-                  <div class="p-5 col-6 col-md-6"><img className='img-fluid' src="./Image/appoinment__thumb.jpg" alt="" /></div>
+              <div className="container text-center">
+                <div className="row mt-5">
+                  <div className="p-5 col-md-6"><img className='img-fluid' src="./Image/photo.jpeg" alt="" /></div>
+                  <div className="p-5 col-6 col-md-6"><img className='img-fluid' src="./Image/appoinment__thumb.jpg" alt="" /></div>
                 </div>
 
-                <div class="row mt-5">
-                  <div class="p-5 col-6 col-md-4"><img className='img-fluid' src="./Image/photo.jpeg" alt="" /></div>
-                  <div class="p-5 col-6 col-md-4"><img className='img-fluid' src="./Image/hire__thumb.jpg" alt="" /></div>
-                  <div class="p-5 col-6 col-md-4"><img className='img-fluid' src="./Image/photo3.jpg" alt="" /></div>
+                <div className="row mt-5">
+                  <div className="p-5 col-6 col-md-4"><img className='img-fluid' src="./Image/samarpit.jpg" alt="" /></div>
+                  <div className="p-5 col-6 col-md-4"><img className='img-fluid' src="./Image/hire__thumb.jpg" alt="" /></div>
+                  <div className="p-5 col-6 col-md-4"><img className='img-fluid' src="./Image/photo3.jpg" alt="" /></div>
                 </div>
 
-                <div class="row mt-5">
-                  <div class="p-5 col-6"><img className='img-fluid' src="./Image/orthopedic-patient-doctor-examines-s-knee-using-tuning-fork-62488941.webp" alt="" /></div>
-                  <div class="p-5 col-6"><img className='img-fluid' src="./Image/photo2.jpg" alt="" /></div>
+                <div className="row mt-5">
+                  <div className="p-5 col-6"><img className='img-fluid' src="./Image/orthopedic-patient-doctor-examines-s-knee-using-tuning-fork-62488941.webp" alt="" /></div>
+                  <div className="p-5 col-6"><img className='img-fluid' src="./Image/photo2.jpg" alt="" /></div>
                 </div>
               </div>
             </div>

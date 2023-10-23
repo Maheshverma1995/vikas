@@ -19,33 +19,33 @@ const Contact = () => {
       <div className='container'>
         <div className='row pt-50'>
           <div className='col-md-4'>
-            <div class="card pt-60 pb-20">
+            <div className="card pt-60 pb-20">
               <div className='contact-i m-auto'><FaPhone /></div>
-              <div class="card-body">
-                <h1 class="card-title text-center">Call Here</h1>
-                <p class="card-text text-center">+8 (123) 985 789<br />
+              <div className="card-body">
+                <h1 className="card-title text-center">Call Here</h1>
+                <p className="card-text text-center">+8 (123) 985 789<br />
 
                   +787 878897 87</p>
               </div>
             </div>
           </div>
           <div className='col-md-4'>
-            <div class="card pt-60 pb-20">
+            <div className="card pt-60 pb-20">
               <div className='contact-i m-auto'><FaEnvelope /></div>
-              <div class="card-body">
-                <h1 class="card-title text-center">Mail Here</h1>
-                <p class="card-text text-center">Admin@BasicTheme.com<br />
+              <div className="card-body">
+                <h1 className="card-title text-center">Mail Here</h1>
+                <p className="card-text text-center">Admin@BasicTheme.com<br />
 
                   Info@Themepur.com</p>
               </div>
             </div>
           </div>
           <div className='col-md-4'>
-            <div class="card pt-60 pb-20">
+            <div className="card pt-60 pb-20">
               <div className='contact-i m-auto'><FaMapMarkerAlt /></div>
-              <div class="card-body">
-                <h1 class="card-title text-center">Visit Here</h1>
-                <p class="card-text text-center">27 Division St, New York, NY 10002, <br /> Jaklina, United Kingpung</p>
+              <div className="card-body">
+                <h1 className="card-title text-center">Visit Here</h1>
+                <p className="card-text text-center">27 Division St, New York, NY 10002, <br /> Jaklina, United Kingpung</p>
               </div>
             </div>
           </div>

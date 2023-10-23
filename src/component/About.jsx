@@ -24,35 +24,35 @@ const About = () => {
       <div className='container'>
         <div className='row'>
           <div className='col-md-6'>
-            <img src="" alt="" />
+            <img src="./Image/photo.jpeg" className='w-100 p-5' alt="" />
           </div>
           <div className='col-md-6'>
             <p>About Us</p>
             <h1>Short Story About MediDove Clinic.</h1>
             <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
-            <div class="card mb-3">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="./Image/vikas negi.jpeg" class="rounded-circle img-fluid mt-4 ms-5" alt="..." />
+            <div className="card mb-3">
+              <div className="row g-0">
+                <div className="col-md-4">
+                  <img src="./Image/vikas negi.jpeg" className="rounded-circle img-fluid mt-4 ms-5" alt="..." />
                 </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Our Mission</h5>
-                    <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+                <div className="col-md-8">
+                  <div className="card-body">
+                    <h5 className="card-title">Our Mission</h5>
+                    <p className="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
 
                   </div>
                 </div>
               </div>
             </div>
-            <div class="card mb-3">
-              <div class="row g-0">
-                <div class="col-md-4">
-                  <img src="./Image/vikas negi.jpeg" class="rounded-circle img-fluid mt-4 ms-5" alt="..." />
+            <div className="card mb-3">
+              <div className="row g-0">
+                <div className="col-md-4">
+                  <img src="./Image/vikas negi.jpeg" className="rounded-circle img-fluid mt-4 ms-5" alt="..." />
                 </div>
-                <div class="col-md-8">
-                  <div class="card-body">
-                    <h5 class="card-title">Our Vission</h5>
-                    <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
+                <div className="col-md-8">
+                  <div className="card-body">
+                    <h5 className="card-title">Our Vission</h5>
+                    <p className="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse.</p>
 
                   </div>
                 </div>
@@ -65,32 +65,32 @@ const About = () => {
         <div className='container'>
           <div className='row pt-50 '>
             <div className='col-lg-4 '>
-              <div class="card border border-0 mb-30"style={{backgroundColor:'#f4f9fc'}}>
-                <img src="./Image/counter-icon-1.png" class="card-img-top w-25 mb-30" alt="..." />
-                <div class="card-body">
-                  <h1 class="card-title">358+</h1>
-                  <h5 class="card-title">Worldwide Branches</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div className="card border border-0 mb-30"style={{backgroundColor:'#f4f9fc'}}>
+                <img src="./Image/counter-icon-1.png" className="card-img-top w-25 mb-30" alt="..." />
+                <div className="card-body">
+                  <h1 className="card-title">358+</h1>
+                  <h5 className="card-title">Worldwide Branches</h5>
+                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
             </div>
             <div className='col-lg-4'>
-              <div class="card border border-0 mb-30"style={{backgroundColor:'#f4f9fc'}}>
-                <img src="./Image/counter-icon-2.png" class="card-img-top w-25 mb-30" alt="..." />
-                <div class="card-body">
-                  <h1 class="card-title">358+</h1>
-                  <h5 class="card-title">Hospital Formed</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div className="card border border-0 mb-30"style={{backgroundColor:'#f4f9fc'}}>
+                <img src="./Image/counter-icon-2.png" className="card-img-top w-25 mb-30" alt="..." />
+                <div className="card-body">
+                  <h1 className="card-title">358+</h1>
+                  <h5 className="card-title">Hospital Formed</h5>
+                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
             </div>
             <div className='col-lg-4'>
-              <div class="card border border-0 mb-30"style={{backgroundColor:'#f4f9fc'}}>
-                <img src="./Image/counter-icon-3.png" class="card-img-top w-25 mb-30" alt="..." />
-                <div class="card-body">
-                  <h1 class="card-title">238+</h1>
-                  <h5 class="card-title">Local Partners</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <div className="card border border-0 mb-30"style={{backgroundColor:'#f4f9fc'}}>
+                <img src="./Image/counter-icon-3.png" className="card-img-top w-25 mb-30" alt="..." />
+                <div className="card-body">
+                  <h1 className="card-title">238+</h1>
+                  <h5 className="card-title">Local Partners</h5>
+                  <p className="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
               </div>
             </div>
@@ -143,7 +143,7 @@ const About = () => {
           <div className='row'>
             <div mt-3 className='col-md-4'>
               <div>
-                <img style={{ width: '250px' }} src="./Image/member1.png" class="card-img-top position-relative" alt="..." />
+                <img style={{ width: '250px' }} src="./Image/member1.png" className="card-img-top position-relative" alt="..." />
                 <span className='position-absolute bottom-0 end-0 fs-1'>+</span>
 
                 <h3 className='team-content' >Rosalina D. Williamson</h3>
@@ -153,7 +153,7 @@ const About = () => {
             </div>
             <div className='col-md-4 mt-3'>
               <div>
-                <img style={{ width: '250px' }} src="./Image/member1.png" class="card-img-top position-relative" alt="..." />
+                <img style={{ width: '250px' }} src="./Image/member1.png" className="card-img-top position-relative" alt="..." />
                 <span className='position-absolute bottom-0 end-0 fs-1'>+</span>
 
                 <h3 className='team-content' >Rosalina D. Williamson</h3>
@@ -163,7 +163,7 @@ const About = () => {
             </div>
             <div className='col-md-4 mt-3'>
               <div>
-                <img style={{ width: '250px' }} src="./Image/member1.png" class="card-img-top position-relative" alt="..." />
+                <img style={{ width: '250px' }} src="./Image/member1.png" className="card-img-top position-relative" alt="..." />
                 <span className='position-absolute bottom-0 end-0 fs-1'>+</span>
 
                 <h3 className='team-content' >Rosalina D. Williamson</h3>
@@ -173,7 +173,7 @@ const About = () => {
             </div>
             <div className='col-md-4 mt-3'>
               <div>
-                <img style={{ width: '250px' }} src="./Image/member1.png" class="card-img-top position-relative" alt="..." />
+                <img style={{ width: '250px' }} src="./Image/member1.png" className="card-img-top position-relative" alt="..." />
                 <span className='position-absolute bottom-0 end-0 fs-1'>+</span>
 
                 <h3 className='team-content' >Rosalina D. Williamson</h3>
@@ -183,7 +183,7 @@ const About = () => {
             </div>
             <div className='col-md-4 mt-3'>
               <div>
-                <img style={{ width: '250px' }} src="./Image/member1.png" class="card-img-top position-relative" alt="..." />
+                <img style={{ width: '250px' }} src="./Image/member1.png" className="card-img-top position-relative" alt="..." />
                 <span className='position-absolute bottom-0 end-0 fs-1'>+</span>
 
                 <h3 className='team-content' >Rosalina D. Williamson</h3>
@@ -193,7 +193,7 @@ const About = () => {
             </div>
             <div className='col-md-4 mt-3 pb-100'>
               <div>
-                <img style={{ width: '250px' }} src="./Image/member1.png" class="card-img-top position-relative" alt="..." />
+                <img style={{ width: '250px' }} src="./Image/member1.png" className="card-img-top position-relative" alt="..." />
                 <span className='position-absolute bottom-0 end-0 fs-1'>+</span>
 
                 <h3 className='team-content' >Rosalina D. Williamson</h3>

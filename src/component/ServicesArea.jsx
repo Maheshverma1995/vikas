@@ -34,20 +34,20 @@ const ServicesArea = () => {
 
     return (
         <div >
-            <section class="services-area services-border pos-rel ">
+            <section className="services-area services-border pos-rel ">
 
-                <div class="container-fluid  mt-5">
-                    <div class="row mt-5">
-                        <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
-                            <div class="section-title text-center pos-rel mb-75">
-                                <div class="section-icon text-center">
-                                    <img class="section-back-icon" src="./Image/section-back-icon.png" alt="" />
+                <div className="container-fluid  mt-5">
+                    <div className="row mt-5">
+                        <div className="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+                            <div className="section-title text-center pos-rel mb-75">
+                                <div className="section-icon text-center">
+                                    <img className="section-back-icon" src="./Image/section-back-icon.png" alt="" />
                                 </div>
-                                <div class="section-text pos-rel mb-5" style={{marginTop:'-150px'}}>
+                                <div className="section-text pos-rel mb-5" style={{marginTop:'-150px'}}>
                                     <h5 className='text-center mb-5'>Departments</h5>
                                     <h1 style={{fontSize:'80px',textAlign:'center'}}>Managed Your<br/> Heathcare Services</h1>
                                 </div>
-                                <div class="section-line pos-rel">
+                                <div className="section-line pos-rel">
                                     <img src="img/shape/section-title-line.png" alt="" />
                                 </div>
                             </div>
@@ -59,7 +59,7 @@ const ServicesArea = () => {
                             <div className='row mb-3'>
                                 <Slider {...settings} style={{marginTop:'-100px'}}>
                                     <div className="card  border border-5 border-dark" id='card-slider'>
-                                        <div class="d-flex justify-content-center"> <img src="./Image/Shoulder.jpg" className="card-img-top z-2 img-fluid" alt="..." /></div>
+                                        <div className="d-flex justify-content-center"> <img src="./Image/Shoulder.jpg" className="card-img-top z-2 img-fluid" alt="..." /></div>
                                         <div className="card-body">
                                             <h5 className="card-title text-center z-3 text-white mb-4  slider-h5  text-uppercase">Shoulder</h5>
                                             <h3><Link to="#" className='text-dark fs-4' >Shoulder Sargery</Link></h3>
@@ -70,7 +70,7 @@ const ServicesArea = () => {
                                         </div>
                                     </div>
                                     <div className="card  border border-5 border-dark" id='card-slider'>
-                                        <div class="d-flex justify-content-center"> <img src="./Image/Rotator.jpg" className="card-img-top z-2 img-fluid" alt="..." /></div>
+                                        <div className="d-flex justify-content-center"> <img src="./Image/Rotator.jpg" className="card-img-top z-2 img-fluid" alt="..." /></div>
                                         <div className="card-body">
                                             <h5 className="card-title text-center z-3 text-white mb-4  slider-h5  text-uppercase">Rotator Cuff Repair</h5>
                                             <h3><Link to="#" className='text-dark fs-4' >Rotator Cuff Repair</Link></h3>
@@ -81,7 +81,7 @@ const ServicesArea = () => {
                                         </div>
                                     </div>
                                     <div className="card  border border-5 border-dark" id='card-slider'>
-                                        <div class="d-flex justify-content-center"> <img src="./Image/Meniscus.jpg" className="card-img-top z-2 img-fluid" alt="..." /></div>
+                                        <div className="d-flex justify-content-center"> <img src="./Image/Meniscus.jpg" className="card-img-top z-2 img-fluid" alt="..." /></div>
                                         <div className="card-body">
                                             <h5 className="card-title text-center z-3 text-white mb-4  slider-h5  text-uppercase">Meniscus Repair</h5>
                                             <h3><Link to="#" className='text-dark fs-4' >Meniscus Repair</Link></h3>
@@ -92,7 +92,7 @@ const ServicesArea = () => {
                                         </div>
                                     </div>
                                     <div className="card  border border-5 border-dark" id='card-slider'>
-                                        <div class="d-flex justify-content-center"> <img src="./Image/Hip.jpg" className="card-img-top z-2 img-fluid" alt="..." /></div>
+                                        <div className="d-flex justify-content-center"> <img src="./Image/Hip.jpg" className="card-img-top z-2 img-fluid" alt="..." /></div>
                                         <div className="card-body">
                                             <h5 className="card-title text-center z-3 text-white mb-4  slider-h5  text-uppercase">Total Hip Replacement</h5>
                                             <h3><Link to="#" className='text-dark fs-4' >Hip Replacement</Link></h3>
@@ -103,7 +103,7 @@ const ServicesArea = () => {
                                         </div>
                                     </div>
                                     <div className="card  border border-5 border-dark" id='card-slider'>
-                                        <div class="d-flex justify-content-center"> <img src="./Image/ACL.jpg" className="card-img-top z-2 img-fluid" alt="..." /></div>
+                                        <div className="d-flex justify-content-center"> <img src="./Image/ACL.jpg" className="card-img-top z-2 img-fluid" alt="..." /></div>
                                         <div className="card-body">
                                             <h5 className="card-title text-center z-3 text-white mb-4  slider-h5  text-uppercase">ACL Reconstruction</h5>
                                             <h3><Link to="#" className='text-dark fs-4' >ACL Reconstruction</Link></h3>
@@ -115,7 +115,7 @@ const ServicesArea = () => {
                                         </div>
                                     </div>
                                     <div className="card  border border-5 border-dark" id='card-slider'>
-                                        <div class="d-flex justify-content-center"> <img src="./Image/Bankart.jpg" className="card-img-top z-2 img-fluid" alt="..." /></div>
+                                        <div className="d-flex justify-content-center"> <img src="./Image/Bankart.jpg" className="card-img-top z-2 img-fluid" alt="..." /></div>
                                         <div className="card-body">
                                             <h5 className="card-title text-center z-3 text-white mb-4  slider-h5  text-uppercase">Bankart Repair</h5>
                                             <h3><Link to="#" className='text-dark fs-4' >Bankart  Sargery</Link></h3>
@@ -126,7 +126,7 @@ const ServicesArea = () => {
                                         </div>
                                     </div>
                                     <div className="card  border border-5 border-dark" id='card-slider'>
-                                        <div class="d-flex justify-content-center"> <img src="./Image/Partial-Knee.jpg" className="card-img-top z-2 img-fluid" alt="..." /></div>
+                                        <div className="d-flex justify-content-center"> <img src="./Image/Partial-Knee.jpg" className="card-img-top z-2 img-fluid" alt="..." /></div>
                                         <div className="card-body">
                                             <h5 className="card-title text-center z-3 text-white mb-4  slider-h5  text-uppercase">Partial-Knee</h5>
                                             <h3><Link to="#" className='text-dark fs-4' >Knee Sargery</Link></h3>
@@ -138,7 +138,7 @@ const ServicesArea = () => {
                                         </div>
                                     </div>
                                     <div className="card  border border-5 border-dark" id='card-slider'>
-                                        <div class="d-flex justify-content-center"> <img src="./Image/Partial-Knee.jpg" className="card-img-top z-2 img-fluid" alt="..." /></div>
+                                        <div className="d-flex justify-content-center"> <img src="./Image/Partial-Knee.jpg" className="card-img-top z-2 img-fluid" alt="..." /></div>
                                         <div className="card-body">
                                             <h5 className="card-title text-center z-3 text-white mb-4  slider-h5  text-uppercase">Revision-Knee</h5>
                                             <h3><Link to="#" className='text-dark fs-4' >Knee Revision</Link></h3>
@@ -150,7 +150,7 @@ const ServicesArea = () => {
                                         </div>
                                     </div>
                                     <div className="card  border border-5 border-dark" id='card-slider'>
-                                        <div class="d-flex justify-content-center"> <img src="./Image/Revision-Knee.jpg" className="card-img-top z-2 img-fluid" alt="..." /></div>
+                                        <div className="d-flex justify-content-center"> <img src="./Image/Revision-Knee.jpg" className="card-img-top z-2 img-fluid" alt="..." /></div>
                                         <div className="card-body">
                                             <h5 className="card-title text-center z-3 text-white mb-4  slider-h5  text-uppercase">Shoulder-Dislocation</h5>
                                             <h3><Link to="#" className='text-dark fs-4' >Dislocation Management</Link></h3>
@@ -161,7 +161,7 @@ const ServicesArea = () => {
                                         </div>
                                     </div>
                                     <div className="card  border border-5 border-dark" id='card-slider'>
-                                        <div class="d-flex justify-content-center"> <img src="./Image/Shoulder-Dislocation.jpg" className="card-img-top z-2 img-fluid" alt="..." /></div>
+                                        <div className="d-flex justify-content-center"> <img src="./Image/Shoulder-Dislocation.jpg" className="card-img-top z-2 img-fluid" alt="..." /></div>
                                         <div className="card-body">
                                             <h5 className="card-title text-center z-3 text-white mb-4  slider-h5  text-uppercase">Shoulder</h5>
                                             <h3><Link to="#" className='text-dark fs-4' >Shoulder Sargery</Link></h3>
@@ -172,7 +172,7 @@ const ServicesArea = () => {
                                         </div>
                                     </div>
                                     <div className="card  border border-5 border-dark" id='card-slider'>
-                                        <div class="d-flex justify-content-center"> <img src="./Image/Shoulder.jpg" className="card-img-top z-2 img-fluid" alt="..." /></div>
+                                        <div className="d-flex justify-content-center"> <img src="./Image/Shoulder.jpg" className="card-img-top z-2 img-fluid" alt="..." /></div>
                                         <div className="card-body">
                                             <h5 className="card-title text-center z-3 text-white mb-4  slider-h5  text-uppercase">Rotator Cuff Repair</h5>
                                             <h3><Link to="#" className='text-dark fs-4' >Rotator Cuff Repair</Link></h3>
@@ -183,7 +183,7 @@ const ServicesArea = () => {
                                         </div>
                                     </div>
                                     <div className="card  border border-5 border-dark" id='card-slider'>
-                                        <div class="d-flex justify-content-center"> <img src="./Image/Rotator.jpg" className="card-img-top z-2 img-fluid" alt="..." /></div>
+                                        <div className="d-flex justify-content-center"> <img src="./Image/Rotator.jpg" className="card-img-top z-2 img-fluid" alt="..." /></div>
                                         <div className="card-body">
                                             <h5 className="card-title text-center z-3 text-white mb-4  slider-h5  text-uppercase">Meniscus Repair</h5>
                                             <h3><Link to="#" className='text-dark fs-4' >Meniscus Repair</Link></h3>
@@ -194,7 +194,7 @@ const ServicesArea = () => {
                                         </div>
                                     </div>
                                     <div className="card  border border-5 border-dark" id='card-slider'>
-                                        <div class="d-flex justify-content-center"> <img src="./Image/Meniscus.jpg" className="card-img-top z-2 img-fluid" alt="..." /></div>
+                                        <div className="d-flex justify-content-center"> <img src="./Image/Meniscus.jpg" className="card-img-top z-2 img-fluid" alt="..." /></div>
                                         <div className="card-body">
                                             <h5 className="card-title text-center z-3 text-white mb-4  slider-h5  text-uppercase">Total Hip Replacement</h5>
                                             <h3><Link to="#" className='text-dark fs-4' >Hip  Sargery</Link></h3>

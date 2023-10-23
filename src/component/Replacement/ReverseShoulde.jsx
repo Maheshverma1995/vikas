@@ -5,7 +5,7 @@ const ReverseShoulde = () => {
     <div>
  <div>
       <div className='container-fluid'>
-        <div className='row header-1'>
+        <div className='row services9'>
           <div className='col-12 d-flex justify-content-between  pt-200 pb-200'>
             <div className='pl-100'><h4>We are here for your care.</h4>
               <h1>Total & Reverse Shoulder Replacement</h1></div>

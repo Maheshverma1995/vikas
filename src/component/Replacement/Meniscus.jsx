@@ -5,7 +5,7 @@ const Meniscus = () => {
     <div>
       <div>
         <div className='container-fluid'>
-          <div className='row header-1'>
+          <div className='row services7'>
             <div className='col-12 d-flex justify-content-between  pt-200 pb-200'>
               <div className='pl-100'><h4>We are here for your care.</h4>
                 <h1>Meniscus Repair</h1></div>
@@ -13,13 +13,13 @@ const Meniscus = () => {
             </div>
           </div>
         </div>
-        <div className='container'>
+        {/* <div className='container'>
           <div className='row'>
             <div className='col-12 pt-100'>
               <img className='w-100' src="./Image/Meniscal-Repair-1.jpg" alt="" />
             </div>
           </div>
-        </div>
+        </div> */}
         <div className='container pt-50'>
           <div className='row'>
             <div className='col-12'>

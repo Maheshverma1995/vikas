@@ -682,7 +682,9 @@ li{
 
 }
 .dropdown:hover #dropdown1{
+	z-index: 100;
 	display: block;
+	position: absolute;
 }
 .dropdown-toggle::after
 {
@@ -2201,5 +2203,91 @@ li{
 		padding-right: 0;
 	}
 	
+	}
+	.services1
+	{
+		background-image: url(../public/Image/ACL.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-size: cover;
+	}
+	.services2
+	{
+		background-image: url(../public/Image/services-13.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		
+	}
+	.services3
+	{
+		background-image: url(../public/Image/bankart-repair-2.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		
+	}
+	.services4
+	{
+		background-image: url(../public/Image/Rotator\ Cuff\ Repair-1.jpeg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		
+	}
+	.services5
+	{
+		background-image: url(../public/Image/Shoulder-Dislocation.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		
+	}
+	.services6
+	{
+		background-image: url(../public/Image/Total-Hip-Replacement.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		
+	}
+	.services7
+	{
+		background-image: url(../public/Image/Meniscal-Repair-1.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		
+	}
+	.services8
+	{
+		background-image: url(../public/Image/Partial\ Knee-1.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		
+	}
+	.services9
+	{
+		background-image: url(../public/Image/Total-Reverse-Shoulder-Replacement.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		
+	}
+	.services10
+	{
+		background-image: url(../public/Image/Revision\ Knee-Hip.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		
+	}
+	Shoulder-s-1.jpg
+	.services11
+	{
+		background-image: url(../public/Image/Shoulder-s-1.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		
+	}
+	.services12
+	{
+		background-image: url(../public/Image/Unicompartmental.jpg);
+		background-repeat: no-repeat;
+		background-size: cover;
+		
 	}
 	
